@@ -1,0 +1,81 @@
+header, h1, p, h2, h3, .page-link, ul, #ending {
+  text-align: center;
+}
+
+header, h1, a {
+  color: cadetblue;
+}
+
+header {
+  font-size: 3.5em;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+h2 {
+  font-size: 2em;
+  color: rgb(214, 180, 180)
+}
+
+h3 {
+  font-size: 1.4em;
+}
+
+a {
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.page-link {
+  display: table;
+  margin: auto;
+}
+
+a:focus {
+  border: 1px solid black;
+}
+
+a:active {
+  border: none;
+  text-decoration: underline;
+}
+
+a.active {
+  color: rgb(37, 83, 84)
+}
+
+a:hover {
+  color: rgb(128, 196, 198);
+}
+
+ul {
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+}
+
+ul img {
+  width: 100px;
+  height: auto;
+}
+
+#ending {
+  background-color: rgb(254, 231, 231);
+  border-radius: 50px;
+  font-size: 1.1em;
+  color: grey;
+}
+
+#restaurant-pic {
+  display: block;
+  max-width: 40%;
+  height: auto;
+  margin: auto;
+}
