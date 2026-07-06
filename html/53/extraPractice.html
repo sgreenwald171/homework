@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/TheGlattSpot.css">
+    <title>extra</title>
+    <style>
+      body {
+        padding-top: 150px;
+      }
+
+      table {
+        display: table;
+        border-collapse: collapse;
+        width: 80%;
+        margin:auto;
+      }
+
+      caption {
+        font-style: italic;
+        color: white;
+      }
+
+      th, td, caption{
+        border: 1px solid black;
+      }
+
+      th {
+        font-weight: bold;
+        text-align: center;
+      }
+
+      td {
+        text-align: left;
+      }
+
+      tbody tr:nth-child(even), thead{
+        background-color: rgb(147, 192, 193);
+      }
+
+      tbody tr:nth-child(odd), caption{
+        background-color: rgb(183, 80, 87);
+      }
+
+      section span span {
+        background-color: white;
+      }
+
+      section>span {
+        background-color: cadetblue;
+      }
+
+      section:first-of-type + section {
+        text-decoration: underline;
+      }
+
+      section:first-of-type ~ section {
+        color: orange;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar"> <a href="index.html">Home</a> | <a href="OurMenu.html">Our Menu</a> | <a href="aboutUs.html">About Us</a> | <a href="extraPractice.html" class="active">Extra</a></nav>
+      <h1 class="name">The Glatt Spot</h1>
+    </header>
+
+    <table>
+      <caption>Customers</caption>
+      <thead>
+        <tr>
+          <th>First</th>
+          <th>Last</th>
+          <th>Age</th>
+          <th>Street Adress</th>
+          <th>City</th>
+          <th>State</th>
+          <th>Zip</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sam</td>
+          <td>I am</td>
+          <td>48</td>
+          <td>184 Park Ave</td>
+          <td>Neptune</td>
+          <td>NY</td>
+          <td>98473</td>
+        </tr>
+        <tr>
+          <td>Mary</td>
+          <td>Jane</td>
+          <td>83</td>
+          <td>123 Main st</td>
+          <td>Lakewood</td>
+          <td>NJ</td>
+          <td>08701</td>
+        </tr>
+        <tr>
+          <td>Donald</td>
+          <td>Trump</td>
+          <td>64</td>
+          <td>White House</td>
+          <td>Washington</td>
+          <td>DC</td>
+          <td>12345</td>
+        </tr>
+    </table>
+    <section>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, expedita nisi velit asperiores nemo sint aut cupiditate nam fuga maiores explicabo sed assumenda amet. Minima debitis deleniti sunt nostrum illo?
+      <span> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, assumenda provident! Autem sed et similique, eum, repellat rerum aut in natus doloribus impedit sint amet, fuga repudiandae error dolore cupiditate?
+        <span>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, quos officiis, eligendi explicabo praesentium accusamus, voluptatibus facilis modi harum aliquam nostrum a ut error magnam quisquam cupiditate. Dignissimos, unde nam.
+        </span>
+      </span>
+    </section>
+    <section>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto voluptatum beatae reprehenderit nulla eaque repudiandae aliquam cumque ex enim veniam vero placeat nemo, eius deleniti voluptates, officia, quae quam dolorum?</section>
+    <section>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet suscipit, voluptatem molestias accusantium laboriosam voluptates, recusandae quidem aspernatur iusto veritatis placeat eos excepturi eius officia quasi? Odit nobis quasi sequi?</section>
+  </body>
+</html>
