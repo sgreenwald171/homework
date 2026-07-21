@@ -169,7 +169,7 @@ table {
   }
 }
 
-@media screen and (1000px >=width) {
+@media screen and (1000px >= width) {
   #sign-up {
     padding-top: 15px;
     height: 170px;
@@ -181,7 +181,7 @@ table {
   }
 }
 
-@media screen and (800px >=width) {
+@media screen and (800px >= width) {
   section, header {
     margin-right: 50px;
     margin-left: 50px;
