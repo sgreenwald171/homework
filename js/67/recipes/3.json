@@ -1,0 +1,7 @@
+{
+  "id": 3,
+  "name": "Soup",
+  "ingredients": ["Carrots", "Onions", "Broth"],
+  "directions": "Simmer ingredients in broth until tender.",
+  "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXuh4mioJVwMFm0bKqLNdNBkd5ssXmdTnYkbWhs7sN6McyhuEaudHOUA&s"
+}

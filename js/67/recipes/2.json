@@ -1,0 +1,7 @@
+{
+  "id": 2,
+  "name": "Salad",
+  "ingredients": ["Lettuce", "Tomato", "Cucumber"],
+  "directions": "Chop vegetables, mix together, add dressing.",
+  "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnlDC8_rbEj-ZCey9zwBXh2x-9ZXpnrHBIglBm-fRvvE1O3-mFyUA17v4EmBonbiFVSyfvLw&s"
+}

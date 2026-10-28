@@ -1,0 +1,7 @@
+{
+  "id": 1, 
+  "name": "Pasta", 
+  "ingredients": ["Pasta", "Tomato Sauce", "Cheese"], 
+  "directions": "Boil pasta, add sauce, sprinkle cheese.",
+  "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRof6pU0SFvihn3j_8e3dlI7kkm0f1459yxKIvqu17S6wzI8PXu-pyoNA&s"
+}
