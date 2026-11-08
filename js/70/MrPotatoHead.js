@@ -72,5 +72,5 @@ window.addEventListener('pagehide', () => {
       });
     }
   });
-  localStorage.setItem('peices', JSON.stringify(peices));
+ localStorage.setItem('peices', JSON.stringify(peices));
 });
