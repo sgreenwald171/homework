@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      #prompts {
+        grid-area: 1/1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: left;
+      }
+
+      #heading {
+        text-align: center;
+        font-size: 3rem;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        grid-column: 2;
+        padding-bottom: 50px;
+      }
+
+      #MrPotatoHead {
+        height: 500px;
+        /*position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);*/
+        grid-column: 2;
+        grid-row: 2 / 6;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="promps">
+      <audio src="media/8thday.mp3" controls loop autoplay></audio>
+    </div>
+    <h1 id="heading">Mr. Potato Head</h1>
+    <img src="./images/MrPotatoHeadBase.png" alt="Mr. Potato Head" id="MrPotatoHead">
+      <!--img src="./images/ears.png" alt="Ears" id="ears"-->
+      <img src="./images/eyes1.png" alt="Eyes" id="eyes1">
+      <img src="./images/eyes2.png" alt="Eyes" id="eyes2">
+      <img src="./images/eyes3.png" alt="Eyes" id="eyes3">
+      <img src="./images/glasses.png" alt="Glasses" id="glasses">
+      <img src="./images/mouth1.png" alt="Mouth" id="mouth1">
+      <img src="./images/mouth2.png" alt="Mouth" id="mouth2">
+      <img src="./images/nose.png" alt="Nose" id="nose1">
+      <img src="./images/nose2.png" alt="Nose" id="nose2">
+      <script src="MrPotatoHead.js" type="module"></script>
+  </body>
+</html>
