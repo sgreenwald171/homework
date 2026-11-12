@@ -4,6 +4,8 @@ const context = theCanvas.getContext('2d');
 
 const SNAKE_SIZE = 64;
 
+const gameOverSound = new Audio('crash.mp3');
+
 function sizeCanvas() {
   theCanvas.width = window.innerWidth - (window.innerWidth % SNAKE_SIZE);
   theCanvas.height = window.innerHeight - (window.innerHeight % SNAKE_SIZE);
@@ -38,7 +40,7 @@ snakeHead.onload = () => {
         break;
     }
     if (x < 0 || (x >= theCanvas.width) || y < 0 || (y >= theCanvas.height)) {
-      console.log('Game Over triggered! Canvas size:', theCanvas.width, theCanvas.height);
+      gameOverSound.play();
       context.fillStyle = 'red';
       context.font = '70px arial';
       const metrics = context.measureText('GAME OVER');
