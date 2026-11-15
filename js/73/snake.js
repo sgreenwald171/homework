@@ -4,7 +4,7 @@ const context = theCanvas.getContext('2d');
 
 const SNAKE_SIZE = 64;
 
-const gameOverSound = new Audio('crash.mp3');
+//const gameOverSound = new Audio('crash.mp3');
 
 function sizeCanvas() {
   theCanvas.width = window.innerWidth - (window.innerWidth % SNAKE_SIZE);
